@@ -1,0 +1,21 @@
+AkoniaHider:
+  Prefix: '&8[&2AkoniaHider&8]'
+  ToggleOn: '&6Alle Spieler sind jetzt unsichtbar.'
+  ToggleOff: '&6Alle Spieler sind jetzt sichtbar.'
+  OnJoin: true
+  InventorySlot: 1
+ItemStacks:
+  shown:
+    ItemID: '351:2'
+    ItemName: '&2Spieler Zeigen'
+    ItemLore: '&dRechtsklick um Spieler zu Zeigen'
+  hidden:
+    ItemID: '351:1'
+    ItemName: '&4Spieler Verstecken'
+    ItemLore: '&dRechtsklick um Spieler zu Verstecken'
+Messages:
+  nopermission: '&4Dafür hast du keine Berechtigung!'
+
+#Permissions
+#pfx.hideplayers.use (Spieler verstekcen/aufdecken)
+#pfx.hideplayers.nohide (Spieler mit dieser Permission können nicht versteckt werden)
